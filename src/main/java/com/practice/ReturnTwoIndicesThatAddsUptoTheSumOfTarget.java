@@ -6,7 +6,7 @@ import java.util.Map;
 public class ReturnTwoIndicesThatAddsUptoTheSumOfTarget {
 
 	public static void main(String[] args) {
-		int[] arr = {2,3,7,6,5,4,1};
+		int[] arr = {2,3,7,6,5,4,1,9};
 		int target = 7;
 		printIndicesBySubtracting(arr, target);
 		printIndicesByAdding(arr, target);
