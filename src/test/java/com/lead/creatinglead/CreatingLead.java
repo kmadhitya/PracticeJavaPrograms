@@ -3,10 +3,9 @@ package com.lead.creatinglead;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.pageobjects.LeaftapsHomePage;
+import com.pageobjects.LeaftapsLoginPage;
 import com.webdriverlibrarybase.ProjectSpecificMethods;
-
-import pageobjects.LeaftapsHomePage;
-import pageobjects.LeaftapsLoginPage;
 
 public class CreatingLead extends ProjectSpecificMethods{
 	

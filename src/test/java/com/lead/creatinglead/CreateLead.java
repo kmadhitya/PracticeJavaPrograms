@@ -3,9 +3,8 @@ package com.lead.creatinglead;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.pageobjects.LeaftapsHomePage;
 import com.webdriverlibrarybase.ProjectSpecificMethods;
-
-import pageobjects.LeaftapsHomePage;
 
 public class CreateLead extends ProjectSpecificMethods{
 	
