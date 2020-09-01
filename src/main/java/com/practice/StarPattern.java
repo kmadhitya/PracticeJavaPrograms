@@ -4,23 +4,23 @@ public class StarPattern {
 
 	public static void main(String[] args) {
 		int n = 5;
-		System.out.println("Right Triangle: ");
-		rightTriangle(n);
-		System.out.println("Inverted Right Triangle: ");
-		invertedRightTriangle(n);
-		System.out.println("Equilateral Triangle: ");
-		equilateralTriangle(n);
+		//System.out.println("Right Triangle: ");
+		//rightTriangle(n);
+		//System.out.println("Inverted Right Triangle: ");
+		//invertedRightTriangle(n);
+		//System.out.println("Equilateral Triangle: ");
+		//equilateralTriangle(n);
 		System.out.println("Inverted Equilateral Triangle: ");
 		invertedEquilateralTriangle(n);
-		System.out.println("Right Triangle after 180 degree rotation: ");
-		rotateRightTriangleBy180Degree(n);
-		System.out.println("Inverted Right Triangle after 180 degree rotation: ");
-		rotateInvertedRightTriangleBy180Degree(n);
+		//System.out.println("Right Triangle after 180 degree rotation: ");
+		//rotateRightTriangleBy180Degree(n);
+		//System.out.println("Inverted Right Triangle after 180 degree rotation: ");
+		//rotateInvertedRightTriangleBy180Degree(n);
 
 	}
 	public static void rightTriangle(int n)
 	{
-		for (int i=0; i<n; i++)
+		for (int i=0; i<=n; i++)
 		{
 			for (int j=0; j<=i; j++)
 			{
@@ -31,7 +31,7 @@ public class StarPattern {
 	}
 	public static void invertedRightTriangle(int n)
 	{
-		for (int i=n; i>0; i--)
+		for (int i=n; i>=0; i--)
 		{
 			for (int j=0; j<=i; j++)
 			{
@@ -61,7 +61,7 @@ public class StarPattern {
 		//j=n-i
 		for (int i=n; i>=0; i--)
 		{
-			for (int j=n-i; j>=0; j--)
+			for (int j=n-i; j>0; j--)
 			{
 				System.out.print(" ");
 			}
@@ -77,9 +77,9 @@ public class StarPattern {
 	public static void rotateRightTriangleBy180Degree(int n)
 	{
 		//j=2*(n-i)
-		for (int i=0; i<n; i++)
+		for (int i=0; i<=n; i++)
 		{
-			for (int j=2*(n-i); j>=0; j--)
+			for (int j=2*(n-i); j>0; j--)
 			{
 				System.out.print(" ");
 			}
@@ -95,7 +95,7 @@ public class StarPattern {
 		//j=2*(n-i)
 		for (int i=n; i>=0; i--)
 		{
-			for (int j=2*(n-i); j>=0; j--)
+			for (int j=2*(n-i); j>0; j--)
 			{
 				System.out.print(" ");
 			}
